@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张三 - 研发项目助理简历</title>
+    <style>
+        /* 全局样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        /* 头部样式 */
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-weight: normal;
+        }
+        .contact {
+            margin-top: 15px;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        /* 主体内容 */
+        section {
+            padding: 25px 0;
+            border-bottom: 1px solid #eee;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        h2::before {
+            content: "▹";
+            color: #3498db;
+            margin-right: 10px;
+        }
+        .job, .project {
+            margin-bottom: 25px;
+        }
+        .job-title, .project-title {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .company, .project-tech {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* 技能标签 */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .job-title, .project-title {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>张三</h1>
+            <p class="subtitle">研发项目助理 | 技术协调专员</p >
+            <div class="contact">
+                📞 13800138000
+                
+                
+            </div>
+        </header>
+        
+        <section>
+            <h2>核心优势</h2>
+            <ul>
+                <li>✅ 软件技术专业背景，熟悉开发流程和基础术语（Git/API/测试环境）</li>
+                <li>✅ 3年电商跨部门协作经验，擅长在复杂流程中推进问题解决</li>
+                <li>✅ 日均处理100+客诉0差错，具备极强的细节把控能力</li>
+                <li>✅ 快速学习者，已掌握Jira/Excel等项目管理工具</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>工作经历</h2>
+            <div class="job">
+                <div class="job-title">
+                    <span>售后客服专员</span>
+                    <span class="company">XX电商 | 2020.03 - 2023.08</span>
+                </div>
+                <ul>
+                    <li><strong>项目管理</strong>：协调技术、仓储部门处理订单异常，平均解决时效＜2小时，类比研发中的缺陷跟踪流程</li>
+                    <li><strong>流程优化</strong>：梳理高频客诉问题，输出SOP文档并被团队采用，效率提升20%</li>
+                    <li><strong>数据分析</strong>：按月统计订单异常类型（Excel数据透视表），辅助技术团队优化系统接口</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h2>技术相关经历</h2>
+            <div class="project">
+                <div class="project-title">
+                    <span>校园管理系统（课设项目）</span>
+                    <span class="project-tech">Java/MySQL</span>
+                </div>
+                <ul>
+                    <li>协助整理需求文档，跟踪开发进度，确保项目按时交付</li>
+                    <li>参与测试用例设计，发现并提交5个功能缺陷</li>
+                </ul>
+            </div>
+            
+            <div class="project">
+                <div class="project-title">
+                    <span>Jira项目管理模拟</span>
+                    <span class="project-tech">Jira/Excel</span>
+                </div>
+                <ul>
+                    <li>自学Jira创建任务看板，模拟需求评审→开发→测试全流程跟踪</li>
+                    <li>用Excel制作甘特图，管理虚拟项目排期</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h2>技能</h2>
+            <div class="skills">
+                <span class="skill-tag">项目管理</span>
+                <span class="skill-tag">Jira</span>
+                <span class="skill-tag">Excel</span>
+                <span class="skill-tag">Git基础</span>
+                <span class="skill-tag">SQL查询</span>
+                <span class="skill-tag">跨部门协作</span>
+            </div>
+        </section>
+        
+        <section>
+            <h2>教育背景</h2>
+            <div class="job-title">
+                <span>软件技术专业（大专）</span>
+                <span class="company">XX职业技术学院 | 2017-2020</span>
+            </div>
+            <ul>
+                <li>主修课程：Java编程、数据库原理、软件测试基础</li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        // 简单的交互效果：点击技能标签时高亮
+        document.querySelectorAll('.skill-tag').forEach(tag => {
+            tag.addEventListener('click', () => {
+                tag.style.backgroundColor = '#bae6fd';
+                setTimeout(() => {
+                    tag.style.backgroundColor = '#e0f2fe';
+                }, 300);
+            });
+        });
+    </script>
+</body>
+</html>
